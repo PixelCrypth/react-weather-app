@@ -1,0 +1,30 @@
+/* Weather.css */
+
+.weather-container {
+    background-color: #282c34;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control.bg-dark {
+    background-color: #495057 !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+.form-control.bg-dark::placeholder {
+    text-align: center;
+    color: #ced4da !important;
+}
+
+.weather-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
